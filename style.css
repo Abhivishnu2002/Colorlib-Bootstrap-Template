@@ -1,0 +1,136 @@
+#logo{
+    width: 140px;
+    height: 34px;
+}
+#nav-bar-link:hover{
+    color: #0d6efd;
+}
+#icon-img{
+    fill: white;
+}
+#col-2{
+    flex-wrap: wrap;
+}
+#des{
+    font-size: 14px;
+    width: 50vw;
+    font-weight: 700;
+}
+#get-them{
+    font-size: 14px;
+    font-weight: 300;
+}
+#more-link{
+    text-decoration: none;
+    color: #ffffff !important;
+}
+#more-link:hover{
+    text-decoration: underline;
+}
+#card-text{
+    line-height: 30px;
+    font-size: 17px;
+}
+.footer-text{
+    color: #9a9898;
+}
+.footer-text a{
+    color: #9a9898;
+    text-decoration: none;
+}
+.footer-text a:hover{
+    color: white;
+}
+#card-text-anchor{
+    text-decoration: none;
+}
+#card-text-anchor:hover{
+    text-decoration: underline;
+}
+#boot-link{
+    text-decoration: none;
+    color: #000000;
+}
+#boot-text{
+    color: #000000;
+}
+#boot-link:hover{
+    text-decoration: underline;
+}
+#cards-link{
+    color: #000;
+    text-decoration: none;
+}
+#page-link{
+    background: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    color: #262627;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+#foot-text{
+    font-size: 23px !important;
+    margin-bottom: 0rem !important;
+    padding: 7px;
+}
+#foot-btn{
+    width: 250px;
+}
+#footer-text{
+    background: #f7f7f7;
+}
+#footer{
+    background: #262626;
+    font-size: 18px;
+    border-bottom: 1px solid #474646;
+    border-radius: 0px;
+}
+#footer-link{
+    color: #9a9898;
+    text-decoration: none;
+}
+#footer-link:hover{
+    color: white;
+}
+#title{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+#footer-con-text{
+    color: #9a9898;
+}
+@media screen and (min-width: 1080px){
+    #nav-list{
+        padding-left: 7vw;
+    }
+}
+@media screen and (max-width: 1330px){
+    #more-link{
+        font-size: 9px !important;
+    }
+}
+@media screen and (max-width: 730px){
+    #foot-sec{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 570px){
+    header{
+        height: 30vw;
+    }
+}
+@media screen and (max-width: 450px){
+    header{
+        height: 45vw;
+    }
+    #icon-img{
+        display: flex;
+        justify-content: center;
+    }
+    #brand-logo{
+        padding-left: 0px !important;
+    }
+}
