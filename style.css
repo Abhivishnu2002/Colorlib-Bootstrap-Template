@@ -101,6 +101,9 @@
 #footer-con-text{
     color: #9a9898;
 }
+img:hover{
+    cursor: pointer;
+}
 @media screen and (min-width: 1080px){
     #nav-list{
         padding-left: 7vw;
